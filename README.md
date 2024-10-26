@@ -397,3 +397,9 @@ ax = sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt="d")
 
 ```
 
+##  output
+
+![__results___12_1](https://github.com/user-attachments/assets/d6751398-5a21-43ad-8d3c-e907eb6fba6c)
+
+
+
