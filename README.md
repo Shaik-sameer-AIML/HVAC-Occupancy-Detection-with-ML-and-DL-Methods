@@ -401,5 +401,42 @@ ax = sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt="d")
 
 ![__results___12_1](https://github.com/user-attachments/assets/d6751398-5a21-43ad-8d3c-e907eb6fba6c)
 
+![__results___13_0](https://github.com/user-attachments/assets/663da6dd-9dad-42d5-8349-31f8c45c0f60)
+
+![newplot](https://github.com/user-attachments/assets/6dccb365-b9c6-4bd1-824a-ceded761ad31)
+![__results___17_0](https://github.com/user-attachments/assets/c5a52eca-477c-4e0b-afb2-bda54ed78cdb)
+
+![__results___20_0](https://github.com/user-attachments/assets/b0383002-30b0-48df-ad81-c80c097f6f4b)
+
+![newplot (1)](https://github.com/user-attachments/assets/916d8e33-57d5-4892-91e3-a20fbeaac700)
+
+
+![__results___29_0](https://github.com/user-attachments/assets/a0cbd0f1-3b6f-47d9-9fcc-57b7d510fa1e)
+
+
+
+
+![__results___32_0](https://github.com/user-attachments/assets/8a790f80-eaf1-466a-8e5f-15d6f381d563)
+
+
+
+![newplot (2)](https://github.com/user-attachments/assets/2aafbf24-0643-4536-96a0-d5ac118613fe)
+
+![__results___45_0](https://github.com/user-attachments/assets/77ebd4be-a5fe-4696-9718-418520b79b7c)
+
+![__results___46_0](https://github.com/user-attachments/assets/0e31328e-f9c3-4fd7-9ffb-71a6de162483)
+
+# Conclusion
+Both of the models did great job when predicting occupancy. Our accuracy is nearly 98%. So what do you think, which method (ML or DL) is suitable for this dataset and problem?
+
+Before answer that, look at the confusion matrix which are created when evaluating models with the test data. SVM model looks like biased toward occupied class. But we don't have that problem with neural network. So we can say that, we could use neural network for more stable and accurate results without significant errors.
+
+
+
+
+
+
+
+
 
 
